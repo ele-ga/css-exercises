@@ -12,14 +12,26 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding: 5px;
+  margin: 5px;
   display: flex;
-  
+  justify-content: space-between;
+   
+}
+
+li {
+  padding: 5px;
+ 
 }
 
 a {
