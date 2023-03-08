@@ -11,6 +11,13 @@ img {
   height: 100px;
 }
 
+.barberry, .chili, .pepper, .saffron
+ {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
