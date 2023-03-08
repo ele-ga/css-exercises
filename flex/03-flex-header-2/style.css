@@ -15,6 +15,7 @@ body {
   padding: 8px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 16px
 }
 
@@ -24,6 +25,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  min-width: 48px;
 }
 
 .logo {
@@ -39,6 +41,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  
 }
 
 a {
@@ -50,9 +53,14 @@ a {
 .left-links {
   display: flex;
   gap: 16px;
+  
 }
 
-
+.right-links {
+  display: flex;
+  gap: 16px;
+ 
+}
 
 ul {
   list-style-type: none;
