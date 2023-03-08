@@ -4,6 +4,8 @@ body {
 
 .container {
   display: flex;
+  gap: 52px;
+  
 }
 
 img {
@@ -15,6 +17,7 @@ img {
  {
   display: flex;
   flex-direction: column;
+  
 
 }
 
