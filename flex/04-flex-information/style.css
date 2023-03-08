@@ -1,6 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
 }
+/* text-align: center should have been in the body */
 
 .container {
   display: flex;
@@ -14,12 +15,14 @@ img {
   height: 100px;
 }
 
+/* should have used the same class for all of them */
 .barberry, .chili, .pepper, .saffron
  {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+/* enough with max-width 200px, no wrap */
   width: 200px;
   flex-wrap: wrap;
 }
