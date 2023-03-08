@@ -50,6 +50,7 @@ a {
   color: rebeccapurple;
 }
 
+/* better to combine left and right as they have the same properties */
 .left-links {
   display: flex;
   gap: 16px;
