@@ -17,6 +17,12 @@ body {
   align-items: center;
 }
 
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
 img {
   width: 600px;
 }
@@ -38,8 +44,12 @@ input {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
 
 a {
   text-decoration: none;
+  
 }
