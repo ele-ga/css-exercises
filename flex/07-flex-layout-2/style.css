@@ -30,7 +30,7 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
-  min-width: 300px;
+  flex-shrink: 0;
   font-size: 24px;
   padding: 16px;
 
