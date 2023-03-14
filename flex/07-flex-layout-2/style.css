@@ -32,7 +32,7 @@ body {
   background: royalblue;
   min-width: 300px;
   font-size: 24px;
-  color: white;
+  padding: 16px;
 
 }
 
@@ -40,8 +40,11 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  display: flex;
-  flex-wrap: wrap;
+  width: 400px;
+  padding: 16px;
+  
+ 
+ 
 }
 
 .content {
@@ -50,6 +53,15 @@ body {
 
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 32px;
+  
+}
+
+
 a {
   text-decoration: none;
   color: white;
@@ -57,4 +69,6 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
