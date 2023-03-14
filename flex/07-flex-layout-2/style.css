@@ -30,6 +30,10 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  min-width: 300px;
+  font-size: 24px;
+  color: white;
+
 }
 
 .card {
@@ -42,5 +46,15 @@ body {
 
 .content {
   display: flex;
+  flex: 1;
 
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
 }
